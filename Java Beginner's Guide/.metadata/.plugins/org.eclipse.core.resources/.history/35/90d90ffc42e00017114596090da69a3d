@@ -1,0 +1,13 @@
+
+public class Car {
+	
+	int maxSpeed;
+	int minSpeed;
+	double weight;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

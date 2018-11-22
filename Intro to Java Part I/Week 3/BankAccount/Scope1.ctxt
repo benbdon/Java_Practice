@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=diaCenter
+comment0.target=void\ printNumberDiamond(int)
+comment1.params=seqCenter\ length
+comment1.target=void\ printNumberLine(int,\ int)
+numComments=2

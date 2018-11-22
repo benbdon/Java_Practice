@@ -1,0 +1,21 @@
+listing 1
+// Find prime numbers between 2 and 100. 
+class Prime {    
+  public static void main(String args[]) {    
+    int checkVal, j; 
+    boolean isprime; 
+ 
+    for(checkVal=2; checkVal < 100; checkVal++) { 
+      isprime = true;  
+ 
+      // see if the number is evenly divisible 
+      for(j=2; j <= checkVal/j; j++) 
+        // if it is, then its not prime 
+        if((checkVal%j) == 0) isprime = false; 
+ 
+      if(isprime) 
+        System.out.println(checkVal + " is prime."); 
+    } 
+  }    
+}
+
